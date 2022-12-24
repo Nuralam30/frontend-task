@@ -108,14 +108,16 @@ form{
 .form-group label{
     font-weight: 500;
 }
-form button{
+button{
     width: 150px;
     height: 40px;
-    background-color: #10B88E;
-    color: #fff;
     border: none;
     transition: all 1s ease;
     border-radius: 20px;
+}
+.btn-highlight{
+    background-color: #10B88E;
+    color: #fff;
 }
 button:hover{
     background-color: transparent;
@@ -145,7 +147,7 @@ button:hover{
 
 /*======= about section style =========*/
 #about{
-    padding: 30px 20px;
+    padding: 80px 20px;
 }
 .about-heading{
     font-size: 55px;
@@ -162,7 +164,7 @@ button:hover{
 
 /*======= features section style ==========*/
 #features{
-    padding: 50px 10px;
+    padding: 80px 10px;
 }
 .box-item{
     position: relative;
@@ -180,6 +182,7 @@ button:hover{
     max-width: 234px;
     font-size: 32px;
     margin: 20px 0px;
+    margin-top: 50px;
 }
 
 .box-text{
@@ -206,7 +209,7 @@ button:hover{
     height: 30px;
     background-color: #fff;
     position: absolute;
-    top: 45%;
+    top: 52%;
     left: -48px;
     border-top-right-radius: 20px;
     box-shadow: 0px -10px 0 0 #fafafa;
@@ -217,8 +220,68 @@ button:hover{
     height: 30px;
     background-color: #fff;
     position: absolute;
-    top: 45%;
+    top: 52%;
     right: -48px;
     border-top-left-radius: 20px;
     box-shadow: 0px -10px 0 0 #fafafa;
+}
+
+
+
+/*========= services section style ==========*/
+#services{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./images/service-background.JPG');
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px;
+    position: relative;
+    padding: 80px 10px;
+}
+.service-heading{
+    font-size: 55px;
+    color: #fff;
+}
+.service-text{
+    font-size: 20px;
+    color: #B6B8B7;
+    max-width: 650px;
+}
+.service-contents{
+    margin-top: 200px;
+    position: absolute;
+    bottom: -65%;
+}
+#services .box-item{
+    min-width: 370px;
+    position: relative;
+}
+
+.box-item .service-image{
+    position: absolute;
+    top: -35%;
+}
+
+.service-image img{
+    min-width: 320px;
+}
+.service-title{
+    font-size: 28px;
+}
+.service-price{
+    font-size: 55px;
+    color: #000;
+    font-weight: 700;
+}
+.service-price span{
+    font-size: 24px;
+    color: #B6B8B7;
+    font-weight: 300;
+}
+.service-category li{
+    text-align: left;
+    line-height: 40px;
 }
