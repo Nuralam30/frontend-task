@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +9,7 @@
 
 body{
     background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -28,17 +32,89 @@ body{
 
 /*-------------- banner style ------------*/
 #banner{
-    min-height: 90vh;
+    min-height: 80vh;
+    width: 100%;
     background-image: url('./images/banner.JPG');
     background-position: center;
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 30px;
 }
-.text{
+.title-text{
+    margin-bottom: 50px;
+}
+.banner-text{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+p{
     color: #A8A4A4;
 }
-.text img{
+.title-text img{
     width: 18px;
+}
+#banner h1{
+    max-width: 600px;
+    text-align: center;
+}
+.highlight{
+    color: #10B88E;
+}
+.banner-text{
+    width: 450px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+.learn-more-btn{
+    min-width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 20px;
+    color: #CBE0E7;
+    background-color: #2E2F4F;
+}
+
+
+
+/*=========== get quote style ==========*/
+.get-quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4%;
+}
+form{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    background-color: #fff;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+.form-group{
+    margin: 10px;
+}
+.form-group label{
+    font-weight: 500;
+}
+form button{
+    width: 150px;
+    height: 40px;
+    background-color: #10B88E;
+    color: #fff;
+    border: none;
+    transition: all 1s ease;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: transparent;
+    color: #2E2F4F;
+    border: 1px solid #2E2F4F;
 }
