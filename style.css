@@ -11,6 +11,9 @@ body{
     background-color: #fafafa;
     font-family: 'Roboto', sans-serif;
 }
+.container-fluid{
+    padding: 0px 50px;
+}
 
 
 /*============ navbar style =============*/
@@ -32,7 +35,7 @@ body{
 
 /*-------------- banner style ------------*/
 #banner{
-    min-height: 80vh;
+    min-height: 90vh;
     width: 100%;
     background-image: url('./images/banner.JPG');
     background-position: center;
@@ -57,14 +60,15 @@ p{
     width: 18px;
 }
 #banner h1{
-    max-width: 600px;
+    font-size: 55px;
+    max-width: 862px;
     text-align: center;
 }
 .highlight{
     color: #10B88E;
 }
 .banner-text{
-    width: 450px;
+    max-width: 450px;
     font-size: 16px;
     text-align: center;
     margin-top: 20px;
@@ -117,4 +121,81 @@ button:hover{
     background-color: transparent;
     color: #2E2F4F;
     border: 1px solid #2E2F4F;
+}
+
+
+/*=============== clients section style =====*/
+#clients{
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.clients-logo div{
+    min-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clients-logo img{
+    min-width: 150px;
+}
+
+
+/*======= about section style =========*/
+#about{
+    padding: 30px 20px;
+}
+.about-heading{
+    font-size: 55px;
+    color: #2C5D60;
+}
+.about-text{
+    max-width: 550px;
+    font-size: 20px;
+    color: #6B9D91;
+    padding: 10px 0px;
+}
+
+
+
+/*======= features section style ==========*/
+#features{
+    padding: 50px 10px;
+}
+.box-item{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    z-index: 10;
+}
+.box-item .box-title{
+    max-width: 234px;
+    font-size: 32px;
+    margin: 20px 0px;
+}
+
+.box-text{
+    max-width: 310px;
+    font-size: 20px;
+}
+.box-img{
+    position: absolute;
+    top: -25%;
+    width: 150px;
+    border: 20px solid #fafafa;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    z-index: 20;
+}
+.box-img img{
+    width: 100%;
 }
