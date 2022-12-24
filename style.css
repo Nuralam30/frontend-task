@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+
+/*============ navbar style =============*/
+.navbar{
+    padding: 10px 40px;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.navbar-brand img{
+    width: 100px;
+}
+.navbar a{
+    color: #2F987E;
+}
+#navbar-toggle{
+    display: none;
+}
+
+
+/*-------------- banner style ------------*/
+#banner{
+    min-height: 90vh;
+    background-image: url('./images/banner.JPG');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text img{
+    width: 18px;
+    color: #A8A4A4;
+}
