@@ -1,0 +1,24 @@
+
+@media screen and (max-width: 1150px) {
+    #banner h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar-nav{
+        display: none;
+    }
+    #banner h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navbar-nav{
+        display: none;
+    }
+    .banner-heading{
+        font-size: 28px;
+    }
+}
