@@ -1,24 +1,110 @@
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1250px) {
     #banner h1{
         font-size: 40px;
     }
+    .get-quote{
+        bottom: -22%;
+    }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
+
     .navbar-nav{
         display: none;
     }
     #banner h1{
         font-size: 30px;
     }
+    .get-quote{
+        width: 95%;
+        bottom: -20%;
+    }
 }
 
-@media screen and (max-width: 700px) {
-    .navbar-nav{
-        display: none;
+@media screen and (max-width: 1000px) {
+    .clients-logo img{
+        min-width: 100px;
     }
-    .banner-heading{
-        font-size: 28px;
+
+}
+
+@media screen and (max-width: 900px) {
+    #banner h1{
+        font-size: 24px;
+    }
+    .banner-text{
+        margin-bottom: 20px;
+    }
+    .get-quote{
+        width: 90%;
+        bottom: -15%;
+        padding: 20px;
+    }
+    .title-text{
+        margin-bottom: 10px;
+    }
+    .clients-logo img{
+        min-width: 80px;
     }
 }
+
+@media screen and (max-width: 720px) {
+    .get-quote{
+        bottom: -10%;
+    }
+    .form-group label,
+    .form-control{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container-fluid{
+        padding: 0px 10px !important;
+    }
+    .navbar{
+        padding: 10px 0px;
+    }
+    #banner h1{
+        font-size: 22px;
+    }
+    .title-text{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 552px) {
+    .form-group{
+        margin: 5px 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .get-quote{
+        padding: 10px;
+    }
+    button{
+        width: 120px;
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 410px) {
+    .get-quote{
+        bottom: -20%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .get-quote{
+        bottom: -35%;
+    }
+    #clients{
+        margin-top: 20vh;
+    }
+}
+
+
+

@@ -74,9 +74,15 @@ p{
     text-align: center;
     margin-top: 20px;
 }
-.learn-more-btn{
-    min-width: 150px;
+
+button{
+    width: 150px;
     height: 40px;
+    border: none;
+    transition: all 1s ease;
+    border-radius: 20px;
+}
+.learn-more-btn{
     border: none;
     border-radius: 20px;
     padding: 6px 20px;
@@ -88,36 +94,30 @@ p{
 
 /*=========== get quote style ==========*/
 .get-quote{
-    width: 100%;
+    width: 91%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     bottom: -15%;
+    background-color: #fff;
+    padding: 30px 50px;
+    border-radius: 20px;
 }
 form{
-    width: 91%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     font-size: 16px;
-    background-color: #fff;
-    padding: 30px 50px;
-    border-radius: 20px;
+    
 }
 .form-group{
     margin: 10px;
 }
 .form-group label{
     font-weight: 500;
-}
-button{
-    width: 150px;
-    height: 40px;
-    border: none;
-    transition: all 1s ease;
-    border-radius: 20px;
 }
 .btn-highlight{
     background-color: #10B88E;
@@ -139,7 +139,6 @@ button:hover{
     align-items: center;
 }
 .clients-logo div{
-    min-height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
